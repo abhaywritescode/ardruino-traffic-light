@@ -34,9 +34,9 @@ I built a simple circuit on a breadboard using standard components:
 The sketch (`TrafficLight/TrafficLight.ino`) relies on a basic state-machine loop. 
 
 In the `setup()` block, pins 2, 3, and 4 are declared as `OUTPUT`. In the `loop()` block, I used `digitalWrite(pin, HIGH/LOW)` and `delay(milliseconds)` to create the following sequence:
-1. **Green ON** (Traffic flows)
+1. **Red ON** (Stop)
 2. **Yellow ON** (Prepare to stop)
-3. **Red ON** (Stop)
+3. **Green ON** (Traffic flows)
 4. Repeat.
 
 ## How to Run It
